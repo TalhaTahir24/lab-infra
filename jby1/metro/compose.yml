@@ -1,0 +1,145 @@
+---
+services:
+  ksa_jed:
+    image: frr-u24:latest
+    container_name: ksa_jed
+    hostname: ksa_jed
+    network_mode: none
+    privileged: true
+    stdin_open: true
+    tty: true
+    restart: always
+    volumes:
+      - ./docker/jed_frr:/etc/frr
+
+  ksa_dmm:
+    image: frr-u24:latest
+    container_name: ksa_dmm
+    hostname: ksa_dmm
+    stdin_open: true
+    tty: true
+    restart: always
+    network_mode: none
+    privileged: true
+    volumes:
+      - ./docker/dmm_frr:/etc/frr
+
+  ksa_ruh:
+    image: frr-u24:latest
+    container_name: ksa_ruh
+    hostname: ksa_ruh
+    stdin_open: true
+    tty: true
+    restart: always
+    network_mode: none
+    privileged: true
+    volumes:
+      - ./docker/ruh_frr:/etc/frr
+
+  uae_auh:
+    image: frr-u24:latest
+    container_name: uae_auh
+    hostname: uae_auh
+    stdin_open: true
+    tty: true
+    restart: always
+    network_mode: none
+    privileged: true
+    volumes:
+      - ./docker/auh_frr:/etc/frr
+
+  uae_shj:
+    image: frr-u24:latest
+    container_name: uae_shj
+    hostname: uae_shj
+    stdin_open: true
+    tty: true
+    restart: always
+    network_mode: none
+    privileged: true
+    volumes:
+      - ./docker/shj_frr:/etc/frr
+
+  uae_fjr:
+    image: frr-u24:latest
+    container_name: uae_fjr
+    hostname: uae_fjr
+    stdin_open: true
+    tty: true
+    restart: always
+    network_mode: none
+    privileged: true
+    volumes:
+      - ./docker/fjr_frr:/etc/frr
+
+  pak_lhr:
+    image: frr-u24:latest
+    container_name: pak_lhr
+    hostname: pak_lhr
+    stdin_open: true
+    tty: true
+    restart: always
+    network_mode: none
+    privileged: true
+    volumes:
+      - ./docker/lhr_frr:/etc/frr
+
+  pak_khi:
+    image: frr-u24:latest
+    container_name: pak_khi
+    hostname: pak_khi
+    stdin_open: true
+    tty: true
+    restart: always
+    network_mode: none
+    privileged: true
+    volumes:
+      - ./docker/khi_frr:/etc/frr
+
+  pak_isb:
+    image: frr-u24:latest
+    container_name: pak_isb
+    hostname: pak_isb
+    stdin_open: true
+    tty: true
+    restart: always
+    network_mode: none
+    privileged: true
+    volumes:
+      - ./docker/isb_frr:/etc/frr
+
+  usa_ny:
+    image: frr-u24:latest
+    container_name: usa_ny
+    hostname: usa_ny
+    stdin_open: true
+    tty: true
+    restart: always
+    network_mode: none
+    privileged: true
+    volumes:
+      - ./docker/ny_frr:/etc/frr
+
+  usa_dc:
+    image: frr-u24:latest
+    container_name: usa_dc
+    hostname: usa_dc
+    stdin_open: true
+    tty: true
+    restart: always
+    network_mode: none
+    privileged: true
+    volumes:
+      - ./docker/dc_frr:/etc/frr
+
+  usa_ca:
+    image: frr-u24:latest
+    container_name: usa_ca
+    hostname: usa_ca
+    stdin_open: true
+    tty: true
+    restart: always
+    network_mode: none
+    privileged: true
+    volumes:
+      - ./docker/ca_frr:/etc/frr

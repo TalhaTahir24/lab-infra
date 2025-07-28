@@ -1,0 +1,12 @@
+ksa_core d-ksa-jed eth1 br-ksa 10.11.0.1/30
+ksa_core d-ksa-dmm eth2 br-ksa 10.11.0.5/30
+ksa_core d-ksa-ruh eth3 br-ksa 10.11.0.9/30
+uae_core d-uae-auh eth1 br-uae 10.12.0.1/30
+uae_core d-uae-shj eth2 br-uae 10.12.0.5/30
+uae_core d-uae-fjr eth3 br-uae 10.12.0.9/30
+pak_core d-pak-lhr eth1 br-pak 10.13.0.1/30
+pak_core d-pak-khi eth2 br-pak 10.13.0.5/30
+pak_core d-pak-isb eth3 br-pak 10.13.0.9/30
+usa_core d-usa-ny eth1 br-usa 10.14.0.1/30
+usa_core d-usa-dc eth2 br-usa 10.14.0.5/30
+usa_core d-usa-ca eth3 br-usa 10.14.0.9/30

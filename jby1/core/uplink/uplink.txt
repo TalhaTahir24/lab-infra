@@ -1,0 +1,4 @@
+ksa_core i-ksa eth0 br-int 192.168.100.111/24 192.168.100.1
+uae_core i-uae eth0 br-int 192.168.100.112/24 192.168.100.1
+pak_core i-pak eth0 br-int 192.168.100.113/24 192.168.100.1
+usa_core i-usa eth0 br-int 192.168.100.114/24 192.168.100.1

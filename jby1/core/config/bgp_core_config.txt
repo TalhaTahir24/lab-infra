@@ -1,0 +1,13 @@
+#CONTAINER      LOCAL_AS   PEER_IP         REMOTE_AS   DEFAULT_ORIGINATE
+pak_core        65003      10.13.0.2       65003       yes
+pak_core        65003      10.13.0.6       65003       yes
+pak_core        65003      10.13.0.10      65003       yes
+ksa_core        65001      10.11.0.2       65001       yes
+ksa_core        65001      10.11.0.6       65001       yes
+ksa_core        65001      10.11.0.10      65001       yes
+uae_core        65002      10.12.0.2       65002       yes
+uae_core        65002      10.12.0.6       65002       yes
+uae_core        65002      10.12.0.10      65002       yes
+usa_core        65004      10.14.0.2       65004       yes
+usa_core        65004      10.14.0.6       65004       yes
+usa_core        65004      10.14.0.10      65004       yes

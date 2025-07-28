@@ -1,0 +1,12 @@
+ksa_jed u-ksa-jed eth0 br-ksa 10.11.0.2/30
+ksa_dmm u-ksa-dmm eth0 br-ksa 10.11.0.6/30
+ksa_ruh u-ksa-ruh eth0 br-ksa 10.11.0.10/30
+uae_auh u-uae-auh eth0 br-uae 10.12.0.2/30
+uae_shj u-uae-shj eth0 br-uae 10.12.0.6/30
+uae_fjr u-uae-fjr eth0 br-uae 10.12.0.10/30
+pak_lhr u-pak-lhr eth0 br-pak 10.13.0.2/30
+pak_khi u-pak-khi eth0 br-pak 10.13.0.6/30
+pak_isb u-pak-isb eth0 br-pak 10.13.0.10/30
+usa_ny u-usa-ny eth0 br-usa 10.14.0.2/30
+usa_dc u-usa-dc eth0 br-usa 10.14.0.6/30
+usa_ca u-usa-ca eth0 br-usa 10.14.0.10/30

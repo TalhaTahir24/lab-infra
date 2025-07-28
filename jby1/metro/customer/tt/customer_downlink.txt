@@ -1,0 +1,12 @@
+ksa_jed    c-ksa-jed    eth2    br-ksa    203.0.113.13/30
+ksa_dmm    c-ksa-dmm    eth2    br-ksa    203.0.113.17/30
+ksa_ruh    c-ksa-ruh    eth2    br-ksa    203.0.113.21/30
+uae_auh    c-uae-auh    eth2    br-uae    203.0.113.77/30
+uae_shj    c-uae-shj    eth2    br-uae    203.0.113.81/30
+uae_fjr    c-uae-fjr    eth2    br-uae    203.0.113.85/30
+pak_lhr    c-pak-lhr    eth2    br-pak    203.0.113.141/30
+pak_khi    c-pak-khi    eth2    br-pak    203.0.113.145/30
+pak_isb    c-pak-isb    eth2    br-pak    203.0.113.149/30
+usa_ny     c-usa-ny     eth2    br-usa    203.0.113.205/30
+usa_dc     c-usa-dc     eth2    br-usa    203.0.113.209/30
+usa_ca     c-usa-ca     eth2    br-usa    203.0.113.213/30

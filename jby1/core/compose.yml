@@ -1,0 +1,49 @@
+---
+services:
+  ksa_core:
+    image: frr-u24:latest
+    container_name: ksa_core
+    hostname: ksa_core
+    privileged: true
+    network_mode: "none"
+    stdin_open: true
+    tty: true
+    restart: always
+    volumes:
+      - ./docker/ksa_frr:/etc/frr
+
+  uae_core:
+    image: frr-u24:latest
+    container_name: uae_core
+    hostname: uae_core
+    privileged: true
+    network_mode: "none"
+    stdin_open: true
+    tty: true
+    restart: always
+    volumes:
+      - ./docker/uae_frr:/etc/frr
+
+  pak_core:
+    image: frr-u24:latest
+    container_name: pak_core
+    hostname: pak_core
+    privileged: true
+    network_mode: "none"
+    stdin_open: true
+    tty: true
+    restart: always
+    volumes:
+      - ./docker/pak_frr:/etc/frr
+
+  usa_core:
+    image: frr-u24:latest
+    container_name: usa_core
+    hostname: usa_core
+    privileged: true
+    network_mode: "none"
+    stdin_open: true
+    tty: true
+    restart: always
+    volumes:
+      - ./docker/usa_frr:/etc/frr
